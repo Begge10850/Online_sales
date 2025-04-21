@@ -17,10 +17,10 @@ A hybrid recommendation system combining **collaborative filtering** (user behav
 ---
 
 ## How It Works
-- **Data Cleaning: Raw data is scrubbed by removing orders with negative quantities/zero prices and deduplicating product descriptions.
+- **Data Cleaning**: Raw data is scrubbed by removing orders with negative quantities/zero prices and deduplicating product descriptions.
 
-- **Collaborative Filtering: A user-item pivot table (quantities purchased) is created, normalized with StandardScaler, and analyzed using cosine similarity to identify similar users.
+- **Collaborative Filtering**: A user-item pivot table (quantities purchased) is created, normalized with StandardScaler, and analyzed using cosine similarity to identify similar users.
 
-- **Content-Based Filtering: Product descriptions are vectorized using TfidfVectorizer, and cosine similarity identifies semantically similar items.
+- **Content-Based Filtering**: Product descriptions are vectorized using TfidfVectorizer, and cosine similarity identifies semantically similar items.
 
-- **Hybrid Recommendations: Scores from both methods are combined with configurable weights (e.g., weight_collab=0.7, weight_content=0.3) to generate final recommendations.
+- **Hybrid Recommendations**: Scores from both methods are combined with configurable weights (e.g., weight_collab=0.7, weight_content=0.3) to generate final recommendations.
