@@ -1,4 +1,4 @@
-# Hybrid Recommendation System for E-Commerce
+# Online Store Hybrid Recommendation System for E-Commerce
 
 ![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-orange)
